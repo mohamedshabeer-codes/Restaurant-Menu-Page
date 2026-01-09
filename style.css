@@ -1,0 +1,53 @@
+body {
+    color: white;
+    background-image: url(photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.menu-card {
+    text-align: center;
+    width: 350px;
+    background: rgb(0, 0, 0, 0.01);
+    backdrop-filter: blur(50px);
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.menu-card h1 {
+    text-align: center;
+    color: #E9A810;
+    font-family: monospace;
+}
+
+.menu-card h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+    font-family: monospace;
+}
+
+
+.menu-card h4 {
+    text-align: center;
+    font-family: monospace;
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: monospace;
+}
+
+li {
+    padding: 8px 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+
+}
